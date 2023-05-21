@@ -1,9 +1,7 @@
 import { createStore } from "vuex";
+import flux from "./modules/flux";
+import articles from "./modules/articles";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: { flux, articles },
 });
